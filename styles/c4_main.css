@@ -1,0 +1,67 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+    margin-right: 15px;
+}
+
+/* the styles for the main content */
+main {
+	clear: left;
+    padding: 20px;
+    flex: 1;
+}
+
+main h1 {
+	font-size: 150%;
+    margin-bottom: 10px;
+}
+main h2 {
+	color: var(--global-color-1);
+	font-size: 130%;
+    margin-bottom: 8px;
+}
+main h3 {
+	font-size: 105%;
+    margin-bottom: 5px;
+}
+
+/* Updated styles for the header */
+h2 {
+    font-size: 170%;
+    color: var(--global-color-1);
+    text-indent: 30px;
+}
+
+h3 {
+    font-size: 130%;
+    font-style: italic;
+    text-indent: 30px;
+}
+
+/* Updated styles for links */
+a:hover, a:focus {
+    font-style: italic;
+}
+
+/* Ensure the footer stays at the bottom */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+/* the styles for the footer */
